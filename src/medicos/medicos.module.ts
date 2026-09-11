@@ -1,0 +1,1 @@
+import{Module}from'@nestjs/common';import{MedicosService}from'./medicos.service';import{MedicosController}from'./medicos.controller';@Module({providers:[MedicosService],controllers:[MedicosController],exports:[MedicosService]})export class MedicosModule{}
