@@ -1,0 +1,1 @@
+import { IsNotEmpty,IsOptional,IsString } from 'class-validator'; export class CreateEspecialidadeDto{@IsString()@IsNotEmpty() nome!:string;@IsString()@IsNotEmpty() descricao!:string} export class UpdateEspecialidadeDto{@IsOptional()@IsString()nome?:string;@IsOptional()@IsString()descricao?:string}
