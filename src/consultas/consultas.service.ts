@@ -1,0 +1,1 @@
+import{Injectable}from'@nestjs/common';import{StorageService}from'../storage/storage.service';type C={id:string;agendamentoId:string;inicio:string;fim:string;diagnostico:string;observacao?:string};@Injectable()export class ConsultasService{constructor(private s:StorageService){}list(){return this.s.list<C>('consultas')}get(id:string){return this.s.get<C>('consultas',id)}}

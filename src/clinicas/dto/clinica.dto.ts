@@ -1,0 +1,1 @@
+import{IsNotEmpty,IsOptional,IsString}from'class-validator';export class CreateClinicaDto{@IsString()@IsNotEmpty()nome!:string;@IsString()@IsNotEmpty()endereco!:string;@IsString()@IsNotEmpty()telefone!:string}export class UpdateClinicaDto{@IsOptional()@IsString()nome?:string;@IsOptional()@IsString()endereco?:string;@IsOptional()@IsString()telefone?:string}
