@@ -8,11 +8,12 @@ Sistema acadêmico completo para gestão de consultas, com REST API NestJS e int
 - localStorage do navegador (persistência da interface)
 
 ## Requisitos
-- Node.js 18 ou superior.
+- **Node.js 18.16.1** (versão testada e exigida pelo projeto).
 - **npm 9.5.1** (a versão do projeto é fixada em `package.json`).
 
 ## Instalação e execução
 ```bash
+node --version # deve mostrar v18.16.1
 npm --version # deve mostrar 9.5.1
 npm install
 npm run start:dev
