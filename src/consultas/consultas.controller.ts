@@ -1,0 +1,1 @@
+import{Controller,Get,Param}from'@nestjs/common';import{ConsultasService}from'./consultas.service';@Controller('consultas')export class ConsultasController{constructor(private s:ConsultasService){}@Get()list(){return this.s.list()}@Get(':id')get(@Param('id')id:string){return this.s.get(id)}}
