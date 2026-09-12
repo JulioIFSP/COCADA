@@ -7,8 +7,13 @@ Sistema acadêmico completo para gestão de consultas, com REST API NestJS e int
 - HTML, CSS e JavaScript (frontend servido pelo Nest)
 - localStorage do navegador (persistência da interface)
 
+## Requisitos
+- Node.js 18 ou superior.
+- **npm 9.5.1** (a versão do projeto é fixada em `package.json`).
+
 ## Instalação e execução
 ```bash
+npm --version # deve mostrar 9.5.1
 npm install
 npm run start:dev
 # abra http://localhost:3000
